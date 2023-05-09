@@ -4,7 +4,9 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@changesets/cli": "^2.26.1"
+  },
   "devDependencies": {
     "nx": "16.1.3"
   },
