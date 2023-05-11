@@ -1,5 +1,4 @@
 ---
-"package-one": major
 "package-two": minor
 ---
 
