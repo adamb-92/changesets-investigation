@@ -2,12 +2,15 @@
   "name": ".",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "format-changesets": "git diff --name-only --cached -- ./.changeset | xargs node ./changeset-script.js"
+  },
   "private": true,
   "dependencies": {
     "@changesets/cli": "^2.26.1"
   },
   "devDependencies": {
+    "front-matter": "^4.0.2",
     "nx": "16.1.3"
   },
   "workspaces": [
