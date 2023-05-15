@@ -26,6 +26,6 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Versioning package one and updating changelog
-      - run: gh release create v2.0.0 -F packages/package-one/CHANGELOG.md
+      - run: gh release create v2.0.1 -F packages/package-one/CHANGELOG.md -title Package One v2.0.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
