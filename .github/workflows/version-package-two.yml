@@ -20,7 +20,7 @@ jobs:
           node-version: 16
           cache: "npm"
       - run: npm ci
-      - run: node_modules/.bin/changeset version --ignore pacakge-one
+      - run: node_modules/.bin/changeset version --ignore package-one
       - name: commit changes
         shell: bash
         run: |
