@@ -9,13 +9,12 @@ on:
       - "hotfix*"
       - "version*"
 
-permissions:
-  contents: write
-
 jobs:
   version-package-two:
     if: ${{ github.event.label.name == 'version-package-two' }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -24,11 +23,6 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: node_modules/.bin/changeset version --ignore package-one
-      - name: commit changes
-        shell: bash
-        run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git status
-          git add .
-          git commit --allow-empty -m "Versioning package two and updating changelog"
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Versioning package two and updating changelog
