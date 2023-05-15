@@ -3,11 +3,15 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "format-changesets": "git diff --name-only --cached -- ./.changeset | xargs node ./changeset-script.js"
+    "format-changesets": "git diff --name-only --cached -- ./.changeset | xargs node ./changeset-script.js",
+    "version-package-one": "npx changeset version --ignore package-two",
+    "version-package-two": "npx changeset version --ignore package-one",
+    "release": "npx changeset publish"
   },
   "private": true,
   "dependencies": {
-    "@changesets/cli": "^2.26.1"
+    "@changesets/cli": "^2.26.1",
+    "changesets": "^1.0.2"
   },
   "devDependencies": {
     "front-matter": "^4.0.2",

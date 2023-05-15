@@ -2,4 +2,4 @@
 "package-one": minor
 ---
 
-Minor update to package one
+This is a description of a change
