@@ -15,7 +15,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: npm run version-package-one
+      - run: npm ci
+      - run: node_modules/.bin/changeset version --ignore pacakge-two
       - name: commit changes
         shell: bash
         run: |
