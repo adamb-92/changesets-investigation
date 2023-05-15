@@ -9,6 +9,9 @@ on:
       - "hotfix*"
       - "version*"
 
+permissions:
+  contents: write
+
 jobs:
   version-package-one:
     if: ${{ github.event.label.name == 'version-package-one' }}
