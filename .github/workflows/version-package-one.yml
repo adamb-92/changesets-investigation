@@ -2,7 +2,7 @@ name: Version Package One
 
 on:
   pull_request:
-    types: [opened, edited, labeled]
+    types: [opened, edited, labeled, synchronize]
     branches:
       - "main"
       - "release*"
