@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: npm version-package-one
+      - run: npm run version-package-one
       - name: commit changes
         shell: bash
         run: |
