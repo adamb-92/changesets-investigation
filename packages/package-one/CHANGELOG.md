@@ -1,5 +1,11 @@
 # package-one
 
+## 2.0.1
+
+### Patch Changes
+
+- 9b3dce9: Patch to package one
+
 ## 2.0.0
 
 ### Major Changes
