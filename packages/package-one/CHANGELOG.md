@@ -1,5 +1,11 @@
 # package-one
 
+## 4.0.0
+
+### Major Changes
+
+- 386a2d6: Major to both packages
+
 ## 3.1.0
 
 ### Minor Changes
