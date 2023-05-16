@@ -1,5 +1,11 @@
 # package-one
 
+## 2.0.2
+
+### Patch Changes
+
+- d554dd6: Another patch bump
+
 ## 2.0.1
 
 ### Patch Changes
