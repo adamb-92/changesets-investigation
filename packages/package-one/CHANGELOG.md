@@ -1,5 +1,11 @@
 # package-one
 
+## 3.1.0
+
+### Minor Changes
+
+- a8ae69d: Minor update to package one
+
 ## 3.0.0
 
 ### Major Changes
