@@ -1,5 +1,23 @@
 # package-one
 
+## 2.1.0
+
+### Minor Changes
+
+- 4ec5f94: Major bump to package one
+
+## 2.0.2
+
+### Patch Changes
+
+- d554dd6: Another patch bump
+
+## 2.0.1
+
+### Patch Changes
+
+- 9b3dce9: Patch to package one
+
 ## 2.0.0
 
 ### Major Changes

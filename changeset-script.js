@@ -1,6 +1,5 @@
 const fm = require("front-matter");
 const fs = require("fs");
-const {} = require("changesets");
 
 const changesetFiles = process.argv.filter(function (val) {
   return val.match(/^.changeset\/((?!README)).*\.md$/);
