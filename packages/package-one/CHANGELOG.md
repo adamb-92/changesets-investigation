@@ -1,5 +1,11 @@
 # package-one
 
+## 3.0.0
+
+### Major Changes
+
+- d8ac0ed: This is a major update to package one
+
 ## 2.1.0
 
 ### Minor Changes
