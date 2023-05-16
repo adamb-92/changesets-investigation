@@ -27,7 +27,6 @@ jobs:
         with:
           commit_message: Versioning package one and updating changelog
       - run: echo packages/package-one/CHANGELOG.md | xargs node generate-release-notes | read version
-      - run: versionStr="v$version"
-      - run: gh release create $versionStr -F .changeset/release-notes.md -t "Package One $versionStr"
+      - run: gh release create v5.0.0 -F .changeset/release-notes.md -t "Package One v5.0.0"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
