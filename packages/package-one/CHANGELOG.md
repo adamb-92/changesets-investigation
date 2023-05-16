@@ -1,5 +1,11 @@
 # package-one
 
+## 5.0.0
+
+### Major Changes
+
+- 6b86a57: Changes to both packages
+
 ## 4.0.0
 
 ### Major Changes
