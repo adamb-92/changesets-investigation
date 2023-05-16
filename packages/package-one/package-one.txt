@@ -5,3 +5,5 @@ Another change to package one
 Additional change
 
 patch update
+
+Major update
