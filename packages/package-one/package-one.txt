@@ -7,3 +7,5 @@ Additional change
 patch update
 
 Major update
+
+Major update
